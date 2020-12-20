@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:lightblue;
+}
+.login{
+	width:400px;
+	margin:100px auto;
+	border:solid 1px purple;
+	padding:20px;
+	
+	font-family: 'Bradley Hand', cursive;
+}
+.login table{
+	width:100%;
+}
+input{
+	padding:5px;
+	width:100%;
+}
+.error{
+	color:#fff;
+	background:purple;
+	padding:2px;
+	margin-bottom:5px;
+	border:dashed 1px #ff0000;
+	
+	font-family: 'Bradley Hand', cursive;
+}
+.page{
+	width:90%;
+	margin:10px auto;
+	min-height:100%;
+}
+.navigation{
+	margin:5px;
+	height:50px;
+	border:solid 1px #000;
+	background:pink;
+	font-family: 'Bradley Hand', cursive;
+}
+.header, .footer{
+	height:100px;
+	border:solid 1px #000;
+	background:#ededed;
+	
+	font-family: 'Bradley Hand', cursive;
+}
+.container{
+	margin:10px 0;
+}
+.container > *{
+	min-height:650px;
+}
+.sidebar1{
+	width:25%;
+	float:left;
+	border-right: dashed 2px purple;
+	
+	font-family: 'Bradley Hand', cursive;
+
+}
+.sidebar2{
+	width:25%;
+	float:right;
+	border-left: dashed 2px purple;
+	
+	font-family: 'Bradley Hand', cursive;
+
+}
+.content{
+	width:40%;
+	float:left;
+	font-family: 'Bradley Hand', cursive;
+	margin: 0 1%;	
+}
